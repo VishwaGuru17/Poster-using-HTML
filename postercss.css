@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    padding: 0;
+    background: #eee;
+    overflow: hidden;
+    font-family: 'oswald' , sans-serif;
+    text-align: center;
+    position: static;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top:-650px;
+    left: -70px;
+    height: 100vh;
+}
+
+.frame {
+    position: relative;
+    width: 230px;
+    height: 380px;
+    padding: 6px;
+    background: #fff;
+    margin: 80px auto;
+}
+.p{
+    font-size: larger;
+    
+
+}
+.shadow-top {
+    position: absolute;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-bottom: 366px solid #bbb;
+    border-left: 50px solid transparent;
+}
+
+.shadow-bottom {
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    height: 0;
+    width: 0;
+    border-top: 20px solid #aaa;
+    border-left: 50px solid transparent;
+}
+
+.canvas {
+    padding: 30px;
+    width: 170px;
+    height: 320px;
+    background: greenyellow;
+    box-shadow: inset -2px 2px 0 #777;
+}
+
+.ground {
+    position: relative;
+    
+    padding: 5px 0;
+    background: rgb(0, 250, 108);
+    min-width: 150px;
+
+    overflow: hidden;
+}
+
+.soilmatters{
+    position: relative;
+    top: -15px;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 62;
+    line-height: 20px;
+}
+
+.reason {
+    position: relative;
+    top: -10px;
+    font-size: larger;
+    font-weight: 150;
+    line-height: 20.5px;
+    color: brown;
+}
+
+.tagline{
+    position: relative;
+    top: 20px;
+    width: 150px;
+    font-size: 15px;
+    line-height: 30px;
+    background: rgb(3, 235, 30);
+    
+}
+
+.line{
+    width: 90px;
+    height: 1px;
+    background: white;
+    margin: 30px auto 0;
+}
+
+.mysite{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    border-bottom: solid 1px rgba(0,0,0,0.5);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    line-height: 20px;
+}
+
+.frame2 {
+    position: absolute;
+    left: -500px;
+    top: -80px;
+
+    width: 230px;
+    height: 380px;
+    padding: 6px;
+    background: #fff;
+    margin: 80px auto;
+}
+
+
+.canvas2 {
+    padding: 30px;
+    width: 170px;
+    height: 320px;
+    background: white;
+    box-shadow: inset -2px 2px 0 #777;
+}
+
+.logo_org{
+    background-image: url(FLUTcRoVgAAPfrN.jpg);
+    position: relative;
+    left: -31px;
+    top: -30px;
+    width: 230px;
+    height: 380px;
+    background-size: 125%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.frame3 {
+    position: absolute;
+    left: 950px;
+    top: -80px;
+
+    width: 230px;
+    height: 380px;
+    padding: 6px;
+    background: #fff;
+    margin: 80px auto;
+}
+
+
+.canvas3 {
+    padding: 30px;
+    width: 170px;
+    height: 320px;
+    background: white;
+    box-shadow: inset -2px 2px 0 #777;
+}
+
+.logo_org2{
+    background-image: url(BG9F-1598606840.jpg);
+    position: relative;
+    left: -31px;
+    top: -30px;
+    width: 230px;
+    height: 380px;
+    background-size: 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
